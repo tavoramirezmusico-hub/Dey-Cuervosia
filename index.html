@@ -3,40 +3,128 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dey Cuervosía</title>
+    <title>Dey Cuervosía · De aire está hecho mi cuerpo</title>
     <!-- Enlace al archivo CSS -->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- Font Awesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
     <!-- ===== HERO ===== -->
-    <section class="hero">
+    <section class="hero" id="inicio">
         <div class="hero-content">
-            <!-- Texto principal con el verso -->
+            <!-- Verso principal -->
             <h1 class="hero-title">
                 De aire está<br />
                 <span>hecho mi cuerpo</span>
             </h1>
-            <!-- Nombre de la marca/poesía -->
+            <!-- Nombre del artista -->
             <p class="hero-subtitle">Dey Cuervosía</p>
+            <!-- Descripción breve -->
+            <p class="hero-description">
+                Cantautor costarricense · Desamparados, San José
+            </p>
+            <!-- Botón de llamado a la acción -->
+            <a href="#musica" class="btn-hero">
+                <i class="fas fa-play"></i> Escuchar sencillo
+            </a>
         </div>
-        <!-- Imagen de fondo (hero) se coloca con CSS usando img/hero.webp -->
     </section>
 
-    <!-- ===== CONTENIDO PRINCIPAL (ejemplo) ===== -->
-    <main>
-        <section class="intro">
-            <h2>Bienvenida</h2>
-            <p>
-                Este es el espacio de Dey Cuervosía. Un lugar donde las palabras
-                vuelan y el aire se vuelve verso.
+    <!-- ===== SECCIÓN MÚSICA ===== -->
+    <section class="musica" id="musica">
+        <div class="container">
+            <h2 class="section-title">✦ Sencillo debut ✦</h2>
+            <p class="section-subtitle">
+                "De aire está hecho mi cuerpo" — ya disponible
             </p>
-        </section>
-        <!-- Aquí puedes agregar más secciones (poemas, biografía, etc.) -->
-    </main>
+            
+            <!-- Reproductor de YouTube incrustado -->
+            <div class="video-wrapper">
+                <div class="video-container">
+                    <iframe 
+                        src="https://www.youtube.com/embed/f60tTWKh01c" 
+                        title="De aire está hecho mi cuerpo - Dey Cuervosía"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- Créditos y detalles -->
+            <div class="creditos">
+                <p class="creditos-texto">
+                    <i class="fas fa-microphone-alt"></i> 
+                    Deynnier Amador Solórzano · <i class="fas fa-guitar"></i> Daniel Gazel · 
+                    <i class="fas fa-sliders-h"></i> Marco Castro
+                </p>
+                <p class="fecha-lanzamiento">
+                    <i class="far fa-calendar-alt"></i> Lanzamiento: 30 de mayo, 2026
+                </p>
+            </div>
+
+            <!-- Letra de la canción (fragmento) -->
+            <div class="letra">
+                <h3>Letra</h3>
+                <blockquote>
+                    <p>"De aire está hecho mi cuerpo,</p>
+                    <p>de viento y de luz solar,</p>
+                    <p>de todo lo que no puedo</p>
+                    <p>y de todo lo que soy al cantar..."</p>
+                </blockquote>
+                <a href="#" class="btn-letra-completa">Ver letra completa →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECCIÓN BIOGRAFÍA ===== -->
+    <section class="bio" id="bio">
+        <div class="container">
+            <div class="bio-grid">
+                <div class="bio-texto">
+                    <h2 class="section-title">Sobre Dey Cuervosía</h2>
+                    <p>
+                        <strong>Deynnier Amador Solórzano</strong>, conocido en el arte como 
+                        <strong>Dey Cuervosía</strong>, es un cantautor originario de 
+                        <strong>Desamparados, San José, Costa Rica</strong>.
+                    </p>
+                    <p>
+                        Su música fusiona la poesía íntima con sonidos que evocan la 
+                        naturaleza y el alma humana. Con <em>"De aire está hecho mi cuerpo"</em>, 
+                        su primer sencillo, Dey invita a un viaje sonoro donde el viento 
+                        y la voz se entrelazan.
+                    </p>
+                    <p>
+                        Inspirado por los paisajes de su tierra y las historias de su gente, 
+                        Dey Cuervosía construye canciones que son refugio y vuelo.
+                    </p>
+                    <div class="bio-redes">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="Spotify"><i class="fab fa-spotify"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="bio-imagen">
+                    <!-- Espacio para una foto del artista (opcional) -->
+                    <div class="imagen-placeholder">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- ===== PIE DE PÁGINA ===== -->
     <footer>
-        <p>&copy; 2026 Dey Cuervosía · Hecho con aire</p>
+        <div class="container">
+            <p class="footer-nombre">© 2026 Dey Cuervosía</p>
+            <p class="footer-frase">"De aire está hecho mi cuerpo"</p>
+            <p class="footer-creditos">
+                Hecho con <i class="fas fa-heart" style="color: #c0392b;"></i> desde Desamparados, Costa Rica
+            </p>
+        </div>
     </footer>
 
     <!-- Enlace al archivo JavaScript -->
