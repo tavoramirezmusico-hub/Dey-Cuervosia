@@ -530,7 +530,7 @@ footer .container {
         opacity: 1;
         transform: translateY(0);
     }
-}
+} 
 
 .musica .container > * {
     animation: fadeInUp 0.8s ease forwards;
