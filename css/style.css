@@ -565,3 +565,19 @@ footer .container {
     border-color: rgba(198, 185, 166, 0.4);
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.7);
 }
+
+/* ===== ENLACE A TAVO MÚSICO EN FOOTER ===== */
+.link-tavo-footer {
+    color: #b8aa96;
+    text-decoration: none;
+    font-weight: 400;
+    border-bottom: 1px solid rgba(198, 185, 166, 0.15);
+    transition: all 0.3s ease;
+    padding-bottom: 2px;
+}
+
+.link-tavo-footer:hover {
+    color: #d4c9b8;
+    border-bottom-color: #b8aa96;
+    letter-spacing: 0.03em;
+}
